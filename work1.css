@@ -1,0 +1,263 @@
+body{
+    background-color: #303234FF;
+    width: 100%;
+}
+
+.container{
+    background-color: #343537;
+}
+.tele{
+    font-size: 15px;
+    color: #626263FF;
+    padding-left: 62px !important;
+}
+input{
+    /* font-size: 15px !important; */
+    width: 250px;
+    color: #626263FF;
+    background-color: #2b2b2b;
+    border: none;
+    margin-left: 100px !important;
+    padding-left: 10px;
+}
+.col-5 button{
+    margin-bottom: 10px !important;
+    margin-right: 10px !important;
+    width: 67px;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 12px !important;
+    padding: 0px !important;
+}
+header{
+    height: 134px;
+    margin-left: 11px !important;
+}
+h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 30px !important;
+    /* border: 1px solid #000; */
+
+}
+h1::first-letter{
+    font-size: 40px;
+}
+.motto{
+    color: #6F6F70FF;
+    font-size: 15px !important;
+    /* border: 1px solid #000; */
+    margin-top: 0 !important;
+    position: relative;
+    top: -20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.col-3, .col-5{
+    margin-top: 20px !important;
+}
+li{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px !important;
+    transition: all .4s;
+    display: block;
+}
+ul{
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+a{
+    margin-left: 30px;
+}
+li:hover{
+    color: blue;
+}
+.menu{
+    width: 1090px;
+    background-color: #000;
+    margin-left: 10px !important;
+    border-radius: 10px 10px 0 0;
+}
+.container2{
+    width: 1090px !important;
+    background-color: #fff !important;
+    margin-left: 10px;
+}
+.bcg{
+    width: 1030px;
+    height: 380px;
+    background: url(rasm.jpg);
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#matn{
+    width: 450px;
+    height: 70px;
+    background-color: #000;
+    padding: 10px;
+    position: relative;
+    top: 285px;
+    left: 20px;
+}
+#matn p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #fff;
+}
+.laorem{
+    color: #717171FF !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+.Lao{
+    margin-left: 15px !important;
+}
+.chap{
+    margin-left: 20px;
+}
+button{
+    width: fit-content;
+    padding: 5px !important;
+    padding-bottom: 5px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: right;
+    display: flex;
+    padding-bottom: 5px !important;
+}
+button span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+i~p{
+    position: relative;
+    top: -30px !important;
+    font-size: 15px;
+}
+.footer{
+    height: 75px;
+    background-color: rgb(121, 118, 118);
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    padding-left: 340px;
+    color: rgb(66, 63, 63);
+}
+.contact p{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+.contact h6{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #6D6D6DFF;
+
+}
+.contact{
+    margin-left: 20px;
+}
+.contact a{
+    margin-left: 0px;
+}
+.links h6{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    color: #6D6D6DFF;
+
+}
+.links a{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: flex-start !important;
+}
+.links ul{
+    /* border: 1px solid #000; */
+    margin-left: -27px;
+    line-height: 25px;
+}
+.blog h6{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #6D6D6DFF;
+
+}
+.blog .bpt{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    display: block;
+}
+.blog p{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+.blog button{
+    width: fit-content;
+    padding: 5px !important;
+    padding-bottom: 5px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    margin-left: 60px !important;
+    float: left;
+}
+.grab h6{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-transform: uppercase;
+    color: #6D6D6DFF;
+}
+.grab input{
+    margin-bottom: 15px;
+    box-sizing: border-box !important;
+    width: 300px !important;
+    height: 35px;
+    font-size: 13pt;
+    display: flex;
+    background-color: #EAEAEAFF;
+    /* border: 1px solid #000; */
+    position: relative;
+    left: -100px;
+    top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.grab input:hover{
+    box-shadow: 0 0 10px 0;
+    
+}
+.grab input:focus{
+    box-shadow: 0 0 10px 0;
+    border: none !important;
+}
+.grab{
+    /* border: 1px solid #000; */
+    margin-left: 60px !important;
+}
+.submit input{
+   
+    width: fit-content;
+    display: flex;
+    /* padding-top: 5px !important; */
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.submit{
+    margin-left: -30px;
+}
+#bobur{
+    text-decoration: none;
+    color: blue;
+    transition: all 0.5s;
+    margin-left: 5px;
+}
+#bobur:hover{
+    color: red;
+}
